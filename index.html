@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fabio Albuquerque · BI & Data Analytics</title>
+<meta name="description" content="Fabio Albuquerque — Gerente de BI & Data Analytics em São Paulo. 18+ anos em dados: Data Warehouse do zero, governança de dados, migração de ERP e liderança de times.">
+<link rel="canonical" href="https://fabio.mba/">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Fabio Albuquerque · BI & Data Analytics">
+<meta property="og:description" content="18+ anos em dados. Da modelagem e do SQL à liderança da área de dados e à relação com a diretoria.">
+<meta property="og:url" content="https://fabio.mba/">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#0f1b2d">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f1b2d'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='28' fill='%23e9b44c' text-anchor='middle'%3EFA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Fabio Albuquerque",
+  "jobTitle": "Gerente de BI & Data Analytics",
+  "url": "https://fabio.mba/",
+  "email": "mailto:contato@fabio.mba",
+  "address": {"@type": "PostalAddress", "addressLocality": "São Paulo", "addressCountry": "BR"},
+  "alumniOf": ["USP/ESALQ", "FIA Business School", "Faculdade do Litoral Sul Paulista"],
+  "sameAs": ["https://www.linkedin.com/in/fabio-mba/"]
+}
+</script>
+<style>
+  :root {
+    --ink: #0f1b2d;
+    --ink-2: #2b3a52;
+    --muted: #5d6b80;
+    --line: #e3e0d8;
+    --paper: #faf8f3;
+    --card: #ffffff;
+    --accent: #c98a1a;
+    --accent-soft: #f6ead2;
+    --hero-text: #f3efe6;
+    --serif: "Fraunces", Georgia, "Times New Roman", serif;
+    --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #eef1f6;
+      --ink-2: #c9d1de;
+      --muted: #94a0b3;
+      --line: #263349;
+      --paper: #0b1421;
+      --card: #111d2e;
+      --accent: #e9b44c;
+      --accent-soft: #2a2414;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font: 400 17px/1.65 var(--sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
+
+  /* Nav */
+  nav {
+    position: sticky; top: 0; z-index: 10;
+    background: color-mix(in srgb, var(--paper) 88%, transparent);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  nav .wrap { display: flex; align-items: center; justify-content: space-between; height: 60px; }
+  .mark { font: 600 20px var(--serif); text-decoration: none; letter-spacing: -.01em; }
+  .mark span { color: var(--accent); }
+  nav ul { display: flex; gap: 26px; list-style: none; margin: 0; padding: 0; }
+  nav ul a { text-decoration: none; font-size: 15px; color: var(--muted); }
+  nav ul a:hover { color: var(--ink); }
+
+  /* Hero */
+  .hero {
+    background: #0f1b2d;
+    color: var(--hero-text);
+    position: relative; overflow: hidden;
+  }
+  .hero::before {
+    content: ""; position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,.045) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,.045) 1px, transparent 1px);
+    background-size: 44px 44px;
+    mask-image: radial-gradient(ellipse at 80% 30%, #000 10%, transparent 70%);
+  }
+  .hero .wrap { position: relative; padding-top: 104px; padding-bottom: 96px; }
+  .eyebrow {
+    display: inline-block; font-size: 13px; font-weight: 600; letter-spacing: .14em;
+    text-transform: uppercase; color: #e9b44c; margin-bottom: 22px;
+  }
+  .hero h1 {
+    font: 400 clamp(44px, 7.4vw, 80px)/1.02 var(--serif);
+    letter-spacing: -.025em; margin: 0 0 22px;
+  }
+  .hero h1 em { font-style: italic; color: #e9b44c; }
+  .hero p.lead { font-size: clamp(18px, 2.2vw, 21px); max-width: 640px; color: #c9d1de; margin: 0 0 36px; }
+  .cta { display: flex; flex-wrap: wrap; gap: 12px; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 13px 22px; border-radius: 999px; font-weight: 600; font-size: 15px;
+    text-decoration: none; transition: transform .15s ease, background .15s ease;
+  }
+  .btn:hover { transform: translateY(-1px); }
+  .btn-primary { background: #e9b44c; color: #0f1b2d; }
+  .btn-ghost { border: 1px solid rgba(255,255,255,.28); color: var(--hero-text); }
+  .btn-ghost:hover { background: rgba(255,255,255,.06); }
+  .btn svg { width: 18px; height: 18px; }
+  .meta { margin-top: 40px; font-size: 14px; color: #94a0b3; display: flex; gap: 22px; flex-wrap: wrap; }
+
+  /* Numbers */
+  .numbers { border-bottom: 1px solid var(--line); }
+  .numbers .wrap { display: grid; grid-template-columns: repeat(4, 1fr); }
+  .stat { padding: 34px 22px 32px; border-left: 1px solid var(--line); }
+  .stat:first-child { border-left: 0; padding-left: 0; }
+  .stat b { display: block; font: 400 44px/1 var(--serif); letter-spacing: -.02em; margin-bottom: 10px; }
+  .stat b small { font-size: 26px; color: var(--accent); }
+  .stat span { font-size: 14px; color: var(--muted); line-height: 1.45; display: block; }
+
+  /* Sections */
+  section.block { padding-top: 92px; padding-bottom: 20px; }
+  .section-head { display: grid; grid-template-columns: 220px 1fr; gap: 40px; margin-bottom: 36px; }
+  .section-head .num { font: 600 13px var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); padding-top: 14px; }
+  h2 { font: 400 clamp(30px, 4vw, 42px)/1.12 var(--serif); letter-spacing: -.02em; margin: 0; }
+  .body { margin-left: 260px; }
+  .body p { margin: 0 0 18px; color: var(--ink-2); max-width: 680px; }
+
+  /* Highlights */
+  .highlights { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 34px; }
+  .hl {
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 22px 22px 20px;
+  }
+  .hl h3 { font: 600 16px/1.35 var(--sans); margin: 0 0 6px; }
+  .hl p { font-size: 15px; color: var(--muted); margin: 0; line-height: 1.55; }
+
+  /* Timeline */
+  .timeline { list-style: none; margin: 0; padding: 0; border-left: 1px solid var(--line); }
+  .job { position: relative; padding: 0 0 44px 32px; }
+  .job::before {
+    content: ""; position: absolute; left: -6px; top: 8px; width: 11px; height: 11px; border-radius: 50%;
+    background: var(--paper); border: 2px solid var(--accent);
+  }
+  .job.current::before { background: var(--accent); }
+  .job .when { font-size: 13px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+  .job h3 { font: 600 21px/1.3 var(--serif); margin: 6px 0 2px; letter-spacing: -.01em; }
+  .job .org { font-size: 15px; color: var(--accent); font-weight: 600; margin-bottom: 10px; }
+  .job p { margin: 0 0 10px; color: var(--ink-2); font-size: 16px; max-width: 680px; }
+  .roles { margin: 4px 0 10px; padding: 0; list-style: none; font-size: 15px; color: var(--muted); }
+  .roles li { margin-bottom: 2px; }
+  .roles strong { color: var(--ink); font-weight: 600; }
+
+  /* Education */
+  .edu { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .edu .hl .yr { font-size: 13px; color: var(--muted); margin-top: 10px; }
+
+  /* Feature */
+  .feature {
+    background: var(--accent-soft); border-radius: 18px; padding: 36px 36px 32px;
+    display: grid; grid-template-columns: 1fr auto; gap: 30px; align-items: end;
+  }
+  .feature blockquote { margin: 0; font: 400 clamp(22px, 2.8vw, 28px)/1.3 var(--serif); letter-spacing: -.01em; }
+  .feature p { margin: 14px 0 0; color: var(--ink-2); font-size: 16px; max-width: 620px; }
+
+  /* Skills */
+  .tags { display: flex; flex-wrap: wrap; gap: 10px; }
+  .tag { border: 1px solid var(--line); background: var(--card); padding: 8px 15px; border-radius: 999px; font-size: 15px; }
+
+  /* Footer */
+  footer { margin-top: 110px; background: #0f1b2d; color: var(--hero-text); }
+  footer .wrap { padding-top: 80px; padding-bottom: 40px; }
+  footer h2 { color: var(--hero-text); max-width: 640px; }
+  footer p { color: #c9d1de; max-width: 560px; margin: 18px 0 32px; }
+  .fine { margin-top: 70px; padding-top: 22px; border-top: 1px solid rgba(255,255,255,.12); font-size: 13px; color: #94a0b3; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; }
+
+  @media (max-width: 860px) {
+    nav ul { display: none; }
+    .numbers .wrap { grid-template-columns: repeat(2, 1fr); }
+    .stat { padding: 26px 16px; }
+    .stat:nth-child(odd) { border-left: 0; padding-left: 0; }
+    .stat:nth-child(n+3) { border-top: 1px solid var(--line); }
+    .section-head { grid-template-columns: 1fr; gap: 10px; }
+    .section-head .num { padding-top: 0; }
+    .body { margin-left: 0; }
+    .highlights, .edu { grid-template-columns: 1fr; }
+    .feature { grid-template-columns: 1fr; padding: 28px 22px; }
+    section.block { padding-top: 70px; }
+  }
+  @media (max-width: 420px) {
+    .wrap { padding: 0 16px; }
+    .stat b { font-size: 36px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="mark" href="#topo">Fabio<span>.</span>mba</a>
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#trajetoria">Trajetória</a></li>
+      <li><a href="#formacao">Formação</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="topo">
+  <div class="wrap">
+    <span class="eyebrow">BI · Data Analytics · Governança de Dados</span>
+    <h1>Fabio Albuquerque.<br>Dados que viram <em>decisão</em>.</h1>
+    <p class="lead">Gerente de BI com mais de 18 anos de carreira em dados. Comecei no técnico (SQL, modelagem, ETL) e hoje lidero pessoas, projetos estratégicos e a relação da área de dados com a diretoria.</p>
+    <div class="cta">
+      <a class="btn btn-primary" href="https://www.linkedin.com/in/fabio-mba/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+        Ver no LinkedIn
+      </a>
+      <a class="btn btn-ghost" href="mailto:contato@fabio.mba">contato@fabio.mba</a>
+    </div>
+    <div class="meta"><span>São Paulo, Brasil</span><span>MBA Data Science & Analytics · USP/ESALQ</span></div>
+  </div>
+</header>
+
+<div class="numbers">
+  <div class="wrap">
+    <div class="stat"><b>18<small>+</small></b><span>anos de carreira em dados</span></div>
+    <div class="stat"><b>10</b><span>sistemas-fonte integrados no primeiro DW da Orit</span></div>
+    <div class="stat"><b>100<small>%</small></b><span>dos dados migrados no novo ERP, sem falhas nem recargas</span></div>
+    <div class="stat"><b>8.000<small>+</small></b><span>clientes no produto que criei e escalei como empreendedor</span></div>
+  </div>
+</div>
+
+<main>
+  <section class="block wrap" id="sobre">
+    <div class="section-head">
+      <div class="num">01 · Sobre</div>
+      <h2>Do SQL à mesa da diretoria.</h2>
+    </div>
+    <div class="body">
+      <p>Na Orit, fui contratado para um projeto de escopo fechado: desenhar e implementar o primeiro Data Warehouse da empresa. Quase cinco anos depois, respondo por toda a estrutura de dados da companhia: uma área que construí, uma equipe que formei e um escopo que só cresceu.</p>
+      <p>Antes disso, foram mais de nove anos na Telefónica construindo Data Marts B2B e B2C e liderando a área de BI em um dos momentos mais delicados da empresa. Como empreendedor, aprendi a enxergar o negócio como dono: financeiro, forecast e aquisição de clientes.</p>
+
+      <div class="highlights">
+        <div class="hl"><h3>Primeiro DW da companhia</h3><p>10 sistemas-fonte integrados, atendendo mais de 6 áreas, do Marketing à alta direção.</p></div>
+        <div class="hl"><h3>Migração de ERP sem falhas</h3><p>Co-liderança com TI: 100% dos dados de clientes, produtos e transações migrados em cerca de 3 meses, sem uma única recarga.</p></div>
+        <div class="hl"><h3>Confiança além do BI</h3><p>Assumi interinamente a área de Produtos por 4 meses e recebi em definitivo a função estratégica de precificação da companhia.</p></div>
+        <div class="hl"><h3>Liderança em cenário de pressão</h3><p>Gerente de BI interino na Telefónica durante a integração pós-aquisição da GVT, mantendo 100% das entregas.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block wrap" id="trajetoria">
+    <div class="section-head">
+      <div class="num">02 · Trajetória</div>
+      <h2>Onde construí essa experiência.</h2>
+    </div>
+    <div class="body">
+      <ol class="timeline">
+        <li class="job current">
+          <div class="when">2021 — hoje</div>
+          <h3>Gerente de BI</h3>
+          <div class="org">Orit · São Paulo</div>
+          <ul class="roles">
+            <li><strong>Gerente de BI</strong> · abr. 2024 — hoje</li>
+            <li><strong>Coordenador de BI</strong> · jul. 2021 — mar. 2024</li>
+          </ul>
+          <p>Recrutado para desenhar o primeiro Data Warehouse da companhia, estruturei do zero a primeira área de Business Intelligence e formei o time de analistas e estagiários. Hoje lidero todo o ecossistema de dados, com relatórios e painéis que apoiam decisões nos níveis estratégico, tático e operacional.</p>
+          <p>Co-liderei com TI a implantação do novo ERP, cuidando da governança, da higienização e da arquitetura da migração de dados do sistema legado, sem perda de integridade operacional.</p>
+        </li>
+        <li class="job">
+          <div class="when">2018 — 2022</div>
+          <h3>Sócio-administrador</h3>
+          <div class="org">Martins & Albuquerque Gestão Educacional</div>
+          <p>Idealizei, validei e escalei do zero um curso com ferramenta de precificação para o mercado de artesanato, que passou de 8.000 clientes no Brasil. Fui responsável pelo forecast, pelo budget e pela gestão financeira e operacional, usando o histórico de vendas para guiar o crescimento.</p>
+        </li>
+        <li class="job">
+          <div class="when">2009 — 2018</div>
+          <h3>Consultor de BI</h3>
+          <div class="org">Telefónica</div>
+          <ul class="roles">
+            <li><strong>Consultor de BI</strong> · set. 2014 — out. 2018</li>
+            <li><strong>Analista de BI Sr</strong> · jun. 2009 — ago. 2014</li>
+          </ul>
+          <p>Liderei a arquitetura e a manutenção do Data Mart B2B de Grandes Empresas, com milhões de registros mensais. Assumi a Gerência de BI de forma interina por 9 meses durante a integração da GVT. Antes, fui um dos líderes técnicos na validação do DW B2C e na construção do Data Mart de varejo.</p>
+        </li>
+        <li class="job">
+          <div class="when">2007 — 2009</div>
+          <h3>Analista de BI Jr</h3>
+          <div class="org">NET Serviços · HP</div>
+          <p>Na NET, entrei como estagiário e fui efetivado em menos de quatro meses, trabalhando com Database Marketing em Oracle para campanhas de aquisição, conversão e retenção. Na HP, atuei em um projeto de qualidade de dados com equipes internacionais, falando inglês no dia a dia.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="block wrap">
+    <div class="feature">
+      <div>
+        <blockquote>“A Ciência de Dados só gera valor quando resolve dores reais do negócio.”</blockquote>
+        <p>Meu TCC no MBA da USP/ESALQ propôs um framework de modelos preditivos para otimizar a distribuição de estoque. Recebeu nota máxima e foi publicado como sumário executivo na Revista Estratégia e Soluções.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block wrap" id="formacao">
+    <div class="section-head">
+      <div class="num">03 · Formação</div>
+      <h2>Base técnica e de negócio.</h2>
+    </div>
+    <div class="body">
+      <div class="edu">
+        <div class="hl"><h3>MBA em Data Science & Analytics</h3><p>USP/ESALQ</p><div class="yr">2024 — 2025</div></div>
+        <div class="hl"><h3>MBA em Gestão Estratégica de Negócios</h3><p>FIA Business School</p><div class="yr">2014 — 2015</div></div>
+        <div class="hl"><h3>Bacharelado em Sistemas de Informação</h3><p>Faculdade do Litoral Sul Paulista</p><div class="yr">2005 — 2008</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block wrap">
+    <div class="section-head">
+      <div class="num">04 · Competências</div>
+      <h2>O que trago para o time.</h2>
+    </div>
+    <div class="body">
+      <div class="tags">
+        <span class="tag">Business Intelligence</span>
+        <span class="tag">Liderança de Data Analytics</span>
+        <span class="tag">Estratégia e Governança de Dados</span>
+        <span class="tag">Arquitetura de Dados</span>
+        <span class="tag">Migração de ERP</span>
+        <span class="tag">Data Warehousing</span>
+        <span class="tag">Gestão de Stakeholders</span>
+        <span class="tag">Mentoria de Times</span>
+        <span class="tag">Precificação</span>
+        <span class="tag">Power BI</span>
+        <span class="tag">SQL</span>
+        <span class="tag">Python</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="contato">
+  <div class="wrap">
+    <span class="eyebrow">Contato</span>
+    <h2>Vamos conversar sobre dados?</h2>
+    <p>O jeito mais rápido de falar comigo é pelo LinkedIn ou por e-mail.</p>
+    <div class="cta">
+      <a class="btn btn-primary" href="mailto:contato@fabio.mba">contato@fabio.mba</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/fabio-mba/" target="_blank" rel="noopener">linkedin.com/in/fabio-mba</a>
+    </div>
+    <div class="fine"><span>© 2026 Fabio Albuquerque</span><span>São Paulo, Brasil</span></div>
+  </div>
+</footer>
+
+</body>
+</html>
